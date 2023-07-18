@@ -50,3 +50,21 @@ console.log(Math.floor(Math.random()*200 +1))
 
 
 
+let datt=new Date()
+
+console.log(datt.toDateString())
+console.log(datt.toLocaleDateString())
+console.log(datt.toTimeString())
+console.log(datt.toLocaleString())
+console.log(datt.getFullYear())
+
+let nmbr=25
+let nmbr2=65
+
+if(nmbr%2==0){
+    console.log('odd number')
+}
+else(nmbr%2==1)
+{
+    console.log("even nmbr")
+}
