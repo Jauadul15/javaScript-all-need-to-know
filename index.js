@@ -61,10 +61,43 @@ console.log(datt.getFullYear())
 let nmbr=25
 let nmbr2=65
 
-if(nmbr%2==0){
-    console.log('odd number')
+if(nmbr%2===0){
+    console.log('even number')
 }
-else(nmbr%2==1)
+else(nmbr%2===1)
 {
-    console.log("even nmbr")
+    console.log("odd nmbr")
+}
+
+
+
+
+let time=new Date()
+
+let today=time.getDay()
+
+switch (today) {
+    case 0:
+        console.log("today is sunday")
+        break
+    case 1:
+        console.log("today is monday")
+        break
+    case 2:
+        console.log("today is tuesday")
+        break
+    case 3:
+        console.log("today is wednesday")
+        break
+    case 4:
+        console.log("today is thusday")
+        break
+    case 5:
+        console.log("today is friday")
+        break
+    case 6:
+        console.log("today is saturday")
+        break
+    default:
+        console.log("not valid")
 }
