@@ -101,3 +101,35 @@ switch (today) {
     default:
         console.log("not valid")
 }
+
+let namm='ja'
+
+let fullName=namm||'rashik'
+console.log(fullName);
+
+
+
+let isokay=false
+
+isokay && console.log("all okay")
+
+
+var sum=0;
+for(var i=0;i<=10;i++){
+    console.log(sum + " + " + i +"="+(sum+i))
+    sum+=i
+}
+
+
+
+var mala=true
+
+while (mala){
+    var rand=Math.floor(Math.random()*10+1)
+    if(rand===9){
+        console.log("paisi")
+        mala=false
+    }else {
+        console.log("you have got"+" "+rand)
+    }
+}
